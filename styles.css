@@ -189,6 +189,16 @@ img {
   text-align: center;
 }
 
+.mi-rol {
+  display: flex; justify-content: center;
+}
+
+.rol {
+  text-align: left;
+  line-height: 2;
+  
+}
+
 @media screen and (max-width: 767px){
   
   .nav__menu{
@@ -809,6 +819,8 @@ img {
   bottom: 5rem;
 }
 
+
+
 /*========== SCROLL BAR ==========*/
 
 
@@ -853,6 +865,15 @@ img {
     padding: 0 .5rem;
   }
 
+  .rol {
+    flex-direction: column;
+
+  }
+
+  .rol-detalle {
+    margin-right: 0px;
+  }
+
 
 }
 
@@ -880,6 +901,14 @@ img {
 
   .contact__container,{
     grid-template-columns: repeat(3, 2fr);
+  }
+
+  .rol {
+    flex-direction: column;
+  }
+
+  .rol-detalle {
+    margin-right: 0px;
   }
 }
 
@@ -1059,6 +1088,8 @@ img {
   .swiper-container-horizontal > .swiper-pagination-bullets{
     bottom: -4.5rem;
   }
+
+
 
   
 }
