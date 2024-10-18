@@ -400,7 +400,7 @@ img {
 
 /*==================== ABOUT ====================*/
 .about__img{
-  width: 200px;
+  
   border-radius: .5rem;
   justify-self: center;
   align-self: center;
@@ -408,7 +408,7 @@ img {
 
 .about__description{
   text-align: center;
-  margin-bottom: var(--mb-2-5);
+  margin-bottom: 20px;
 }
 
 .about__info{
@@ -819,6 +819,78 @@ img {
   bottom: 5rem;
 }
 
+.usuarios-i {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-coments{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  font-size: 15px;
+  
+}
+
+.user-coments2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  font-size: 15px;
+  flex-direction: row-reverse;
+}
+
+.user-coments img{
+  width: 110px;
+}
+
+.user-coments2 img{
+  width: 110px;
+}
+
+.detalles2{
+  margin-top: 40px;
+
+}
+
+.detalles2 li{
+  background-color: var(--first-color);
+  opacity: .8;
+  color: #fff;
+}
+
+.marcas{
+  padding: 20px;
+}
+
+.mvp1{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  padding: 20px;
+  
+}
+
+.mvp1 img{
+  width: 100%;
+}
+
+.elementos{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+
+
+
 
 
 /*========== SCROLL BAR ==========*/
@@ -874,6 +946,30 @@ img {
     margin-right: 0px;
   }
 
+  .user-coments{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  font-size: 15px;
+}
+
+.detalles2{
+  margin-top: 40px;
+
+}
+
+.detalles2 li{
+  background-color: var(--first-color);
+  opacity: .8;
+  color: #fff;
+}
+
+.marcas{
+  padding: 20px;
+}
+
+
 
 }
 
@@ -910,6 +1006,8 @@ img {
   .rol-detalle {
     margin-right: 0px;
   }
+
+
 }
 
 @media screen and (min-width: 768px){
@@ -988,7 +1086,7 @@ img {
   }
 
   .about__img{
-    width: 350px;
+    /*width: 350px;*/
   }
 
   .about__description{
@@ -1044,6 +1142,119 @@ img {
   .footer__socials{
     justify-self: flex-end;
   }
+
+  .usuarios-i{
+  display: flex; flex-direction: column;
+}
+
+.user-coments{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 62px;
+  font-size: 20px;
+}
+
+.user-coments-j {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 62px;
+    font-size: 17px;
+    margin-bottom: 95px;
+  }
+
+  .user-coments-j img{
+    width: 520px;
+  }
+
+  .user-coments-j p{
+    width: 260px;
+  }
+
+  .user-coments-j2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 62px;
+    font-size: 17px;
+    margin-bottom: 95px;
+    flex-direction: row-reverse;
+  }
+
+  .user-coments-j2 img{
+    width: 520px;
+  }
+
+   .user-coments-j2 p{
+    width: 260px;
+  }
+
+
+.user-coments2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 62px;
+  font-size: 20px;
+  flex-direction: row-reverse;
+}
+
+.user-coments img{
+  width: 150px;
+}
+
+.user-coments2 img{
+  width: 150px;
+}
+
+
+.hallazgos{
+  display: flex;
+  padding: 20px;
+  gap: 50px;
+}
+
+.circle{
+
+}
+
+.detalles2{
+  margin-top: 40px;
+
+}
+
+.detalles2 li{
+  background-color: var(--first-color);
+  opacity: .8;
+  color: #fff;
+}
+
+.marcas{
+  padding: 20px;
+}
+
+.mvp1{
+  display: flex;
+  gap: 41px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.mvp1 img{
+  width: 300px;
+}
+
+.elementos{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  align-items: start;
+}
+
+
 
 
   
